@@ -1,6 +1,6 @@
 # usage : python3 scriptName.py "csv file"(without quotes {""}). results folder == where python script is. this
-# script will take all the data available in column 10 (fovio.results_generation_utc_time.time_s) if
-# fovio.results_generation_utc_time.time_s have mapped another letter (not J which is 10, in excel file),
+# script will take all the data available in column 10 (signal) if
+# signal have mapped another letter (not J which is 10, in excel file),
 # modify min_col & max_col from line 24 accordingly.
 
 import sys
